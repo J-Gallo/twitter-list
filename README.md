@@ -57,7 +57,6 @@ https://twitter-list.now.sh
   * "classnames": "^2.2.5",
   * "express": "^4.14.0",
   * "next": "latest",
-  * "node-cache": "^4.1.1",
   * "q": "^1.5.0",
   * "react": "^16.0.0",
   * "react-dom": "^16.0.0",
