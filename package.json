@@ -1,0 +1,38 @@
+{
+  "name": "twitter-list",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "NODE_ENV=dev node server.js",
+    "build": "next build",
+    "test": "CONSUMER=CONSUMER SECRET=SECRET BEARER=BEARER mocha --exit",
+    "lint": "standard",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "standard": {
+    "ignore": [
+      "/test/**/"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.1",
+    "classnames": "^2.2.5",
+    "express": "^4.14.0",
+    "next": "latest",
+    "node-cache": "^4.1.1",
+    "q": "^1.5.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "redis": "^2.8.0",
+    "restler": "^3.4.0",
+    "styled-jsx": "^2.0.0",
+    "twitter": "^1.7.1",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3"
+  }
+}
